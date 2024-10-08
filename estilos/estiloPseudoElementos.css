@@ -1,0 +1,20 @@
+h1::after{
+    content: " **";
+}
+
+h1::before {
+    content: "** ";
+}
+
+p::first-letter {
+    color: chocolate;
+}
+
+p::first-line {
+    background-color: blueviolet;
+}
+
+p::selection {
+    background-color: aquamarine;
+    color: brown;
+}

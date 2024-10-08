@@ -1,0 +1,62 @@
+input[type="text"]:required {
+    color: blueviolet;
+}
+
+input:optional {
+    background-color: rgb(151, 181, 237);
+}
+
+input:disabled {
+    background-color: darkgreen;
+    color: black;
+}
+
+input:focus {
+    border-width: 0.2rem;
+}
+
+p:first-of-type{
+    background-color: chartreuse;
+}
+
+input:hover {
+    background-color: red;
+}
+
+input:enabled {
+    font-size: 1.2rem;
+}
+
+input:read-only {
+    color: chartreuse;
+}
+
+input:read-write {
+    color: fuchsia
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+input:invalid {
+    background-color: coral;
+}
+
+:not(input) {
+    background-color: darkturquoise;
+}
+
+p:lang(fr){
+    color:lawngreen;
+    background-color: white;
+}
+
+button:only-of-type{
+    background-color: blueviolet;
+    color: black;
+}
